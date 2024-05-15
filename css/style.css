@@ -128,11 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+.container {
+    width: 100%;
+}
+
 
 @media screen and (max-width:768px) {
     .container {
         width: 100%;
     }
+    
 }
 
 
@@ -146,7 +151,10 @@ img {
     .why-us .col-left,
     .why-us .col-right{
         width: 100%;
-        margin: 0 auto;
+        margin: auto;
     }
     
+    .card {
+        margin-top: 50px;
+    }
 }
